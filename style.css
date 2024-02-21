@@ -171,7 +171,7 @@ max-height: 20px;
 
   .Thumbnail {
     max-width: 350px;
-    min-width: 30px;
+    min-width: 190px;
     width: 100%;
     border-radius: 25px;
     display: flex;
