@@ -170,8 +170,12 @@ max-height: 20px;
   }
 
   .Thumbnail {
-    max-width: 275px;
+    max-width: 350px;
+    min-width: 30px;
+    width: 100%;
     border-radius: 25px;
+    display: flex;
+    padding-right: 5px;
   }
 
   .title {
@@ -183,10 +187,13 @@ max-height: 20px;
   .AllVids {
     display: flex;
     flex-direction: row;
+    width: fit-content;
     max-width: 90%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     padding-top: 30px;
+    padding-left: 40px;
+
   }
 
   .vid {
